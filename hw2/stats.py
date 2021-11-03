@@ -61,7 +61,7 @@ for i in silence_indeces:
 
 df = final.drop([i for i in silence_indeces]) #drop 'silence' indeces from final dataframe
 
-#%% calculate number of turns per dialogue
+#%% calculate the number of turns per dialogue
 
 dialogues=0
 turns=0
