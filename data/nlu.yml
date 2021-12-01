@@ -1,0 +1,80 @@
+version: "3.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - yes i have
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - no thanks
+
+- intent: meal
+  examples: |
+    - meal
+    - food
+    - lunch
+    
+- intent: location
+  examples: |
+    - Restaurant 1 at Sintagma
+    - Restaurant 2 at Sintagma
+    - Restaurant 3 at Pagkrati
+    - Restaurant 4 at Kifisia
+    - Restaurant 5 at Marousi
+    - Restaurant 6 at Zografou
+    - Restaurant 7 at Psiri
+    - Bar 1 at Kipseli
+    - Bar 2 at Kipseli
+    - Bar 3 at Marousi
+    - Bar 4 at Exarxia
+    - Bar 5 at Peristeri
+    - Bar 6 at Egaleo
+    - Bar 7 at Psiri
+    
+- intent: drink
+  examples: |
+    - drink
+    

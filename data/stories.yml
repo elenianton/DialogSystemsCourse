@@ -1,0 +1,52 @@
+version: "3.0"
+
+stories:
+- story: meal_yes
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_meal_or_drink
+  - intent: meal
+  - action: utter_location
+  - intent: location
+  - action: utter_covid
+  - intent: affirm
+  - action: utter_confirm
+  - action: utter_question_ok
+  - intent: affirm
+  - action: utter_goodbye
+  - intent: goodbye
+  
+- story: drink_yes
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_meal_or_drink
+  - intent: drink
+  - action: utter_location
+  - intent: location
+  - action: utter_covid
+  - intent: affirm
+  - action: utter_confirm
+  - action: utter_question_ok
+  - intent: affirm
+  - action: utter_goodbye
+  - intent: goodbye
+
+- story: meal_no
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: deny
+  - action: utter_goodbye
+  - intent: goodbye
+  
+- story: drink_no
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: deny
+  - action: utter_goodbye
+  - intent: goodbye
